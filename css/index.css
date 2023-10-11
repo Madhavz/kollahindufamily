@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+h1 {
+    width: 100%;
+    padding: 2%;
+    text-align: center;
+    font-size: 7vh;
+    background-color: green;
+    color: white;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 80vh;
+}
+.container a {
+    text-decoration: none;
+    border: 1px solid green;
+    width: 28%;
+    border-radius: 50px 50px 0 0;
+}
+.pujaType {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pujaType img {
+    width: 100%;
+    padding: 5%;
+    border-radius: 50px;
+}
+.pujaType h2 {
+    background-color: green;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 2%;
+    font-size: 4vh;
+}

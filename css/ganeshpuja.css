@@ -1,0 +1,221 @@
+
+.year {
+    display: flex;
+    padding: 1%;
+    border: 1px solid green;
+    margin: .5%;
+    justify-content: space-evenly;
+    background-color: green;
+}
+.year a {
+    background-color: white;
+    color: green;
+    font-size: 3vh;
+    margin: 0 1%;
+    padding: .5%;
+    width: 5%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 1vh;
+}
+.year a:first-child {
+    background-color: yellow;
+    cursor: not-allowed;
+    color: green;
+}
+.title {
+    background-color: brown;
+    color: yellow;
+    font-size: 12vh;
+    padding: .5%;
+    text-align: center;
+}
+.total {
+    display: flex;   
+    background-color: black;
+    padding: .5%;
+    justify-content: space-evenly;
+    margin: .5%;
+}
+.total a,.total p {
+    text-decoration: none;
+    font-size: 4vh;
+    color: gold;
+    border: 1px solid gold;
+    width: 23%;
+    padding: .3%;
+    user-select: none;
+    text-align: center;
+    border-radius: 5vh;
+}
+body h1 {
+    background-color: blue;
+    color: white;
+    margin-bottom: .5%;
+    padding: .5%;
+    text-align: center;
+}
+.collectionList {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: .5%;
+}
+.chandha,.boxCollection, .loduPattaCollection, .lastYearLoanCollection {
+    display: flex;
+    flex-direction: column;
+
+    width: 24.5%;
+    align-items: center;
+    background-color: #ddd;
+}
+h2 {
+    color: black;
+    background-color: gold;
+    width: 100%;
+    text-align: center;
+    padding: 3%;
+}
+.loduPattaCollection img {
+    width: 35%;
+    border-radius: 50%;
+    padding: 2% 0;
+}
+.loduPattaCollection p {
+    font-weight: bold;
+    padding-bottom: 2%;
+}
+h3 {
+    font-size: 3.5vh;
+    margin-top: 0;
+    color: green;
+}
+.person {
+    display: flex;
+    align-items: center;
+    border: 1px solid green;
+    margin: 2%;
+}
+
+table {
+    width: 98%;
+    margin-top: 2%;
+}
+th {
+    background-color: yellow;
+    color: orangered;
+    padding: 1.5%;
+}
+
+.chandha th:first-child {
+    width: 50%;
+}
+td {
+    text-align: center;
+    padding: 1%;
+}
+table, th, td {
+    border: 1px solid green;
+    border-collapse: collapse;
+}
+.part1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}
+.part1 img {
+    width: 25%;
+    border-radius: 50%;
+}
+.person1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.person1 img{
+    width: 25%;
+    border-radius: 50%;
+}
+.expenditureList {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    margin: 0 auto .5% auto;
+}
+.expenditureList table {
+    margin-top: 0;
+}
+.lodupatta {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto .5% auto;
+    align-items: center;
+    border-radius: 5vh;
+    background-color: green;
+}
+.lodupatta img {
+    width: 40%;
+    border-radius: 5vh 0 5vh 0;
+    padding: 1.5%;
+}
+
+.lodupatta p {
+    font-size: 6vh;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: yellow;
+    padding: .5%;
+}
+.financeHelp {
+    display: flex;
+    margin: .5%;
+    background-color: yellow;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.taker {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid green;
+    margin: 2%;
+    width: 33%;
+    align-items: center;
+    padding-bottom: .2%;
+    border-radius: 5vh 0 5vh 0;
+}
+.taker img{
+    width: 35%;
+    padding: .5%;
+}
+.taker p {
+    font-size: 3vh;
+    font-weight: bold;
+    color: gold;
+    background-color: black;
+    width: 80%;
+    padding: .5%;
+    text-align: center;
+    margin: .2%;
+}
+.gallery {
+    display: flex;
+    align-items: center;
+    margin: 0 auto .5% auto;
+    flex-direction: column;
+}
+.gallery p {
+    margin-top: .5%;
+    font-weight: bold;
+    letter-spacing: .5%;
+    background-color: yellow;
+    padding: .5%;
+    text-align: center;
+}
+footer {
+    background-color: #ddd;
+    color: black;
+    padding: .5%;
+    text-align: right;
+}
