@@ -224,7 +224,7 @@ footer {
 }
 
 /* responsive website creation */
-@media screen and (max-width: 420px) {
+@media only screen and (max-width: 420px) {
     .title {
         background-color: brown;
         color: yellow;
