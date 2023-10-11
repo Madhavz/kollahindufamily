@@ -95,7 +95,9 @@ h3 {
     border: 1px solid green;
     margin: 2%;
 }
-
+.person p {
+    font-size: 15px;
+}
 table {
     width: 98%;
     margin-top: 2%;
@@ -217,5 +219,136 @@ footer {
     background-color: #ddd;
     color: black;
     padding: .5%;
-    text-align: right;
+    text-align: center;
+    margin-top: 2%;
+}
+
+/* responsive website creation */
+@media screen and (max-width: 420px) {
+    .title {
+        background-color: brown;
+        color: yellow;
+        font-size: 5vh;
+        padding: .5%;
+        text-align: center;
+    }
+    .total {
+        display: flex;   
+        flex-direction: column;
+        background-color: black;
+        padding: .5%;
+        align-items: center;
+        margin: .5%;
+    }
+    .total a,.total p {
+        text-decoration: none;
+        font-size: 3.5vh;
+        color: gold;
+        border: 1px solid gold;
+        width: 90%;
+        padding: .3%;
+        user-select: none;
+        text-align: center;
+        border-radius: 5vh;
+        margin: 2%;
+    }
+    body h1 {
+        background-color: blue;
+        color: white;
+        margin-bottom: .5%;
+        padding: .5%;
+        text-align: center;
+    }
+    .collectionList {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: .5%;
+    }
+    .chandha,.boxCollection, .loduPattaCollection, .lastYearLoanCollection {
+        display: flex;
+        flex-direction: column;
+        margin: 2%;
+        width: 95%;
+        align-items: center;
+        background-color: #ddd;
+    }
+    h2 {
+        color: black;
+        background-color: gold;
+        width: 100%;
+        text-align: center;
+        padding: 2%;
+    }
+    .expenditureList {
+        display: flex;
+        flex-direction: column;
+        width: 98%;
+        align-items: center;
+        margin: 2%;
+    }
+    .cost {
+        width: 20%;
+    }
+    .lodupatta {
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto .5% auto;
+        align-items: center;
+        background-color: green;
+        border-radius: 0;
+        margin: 2% auto;
+    }
+    .lodupatta img {
+        width: 50%;
+        border-radius: 5vh;
+        padding: 1.5%;
+    }
+    .lodupatta p {
+        font-size: 5vh;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: yellow;
+        padding: .5%;
+    }
+    .financeHelp {
+        display: flex;
+        flex-direction: column;
+        margin: .5%;
+        background-color: yellow;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .taker {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid green;
+        margin: 2%;
+        width: 95%;
+        align-items: center;
+        padding-bottom: .2%;
+        border-radius: 0;
+    }
+    .taker p {
+        font-size: 2.5vh;
+        font-weight: bold;
+        color: gold;
+        background-color: black;
+        width: 80%;
+        padding: .5%;
+        text-align: center;
+        margin: .2%;
+    }
+    video {
+        width: 80%;
+        margin-top: 2%;
+    }
+    footer {
+        background-color: #ddd;
+        color: black;
+        padding: .5%;
+        text-align: center;
+        margin-top: 2%;
+    }
 }
